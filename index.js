@@ -7,4 +7,9 @@ function whisper(string){
 function logShout(string){console.log('HELLO')}
 function logWhisper(string){console.log('hello')}
 function sayHiToGrandma(string){
-  return (I can\'t hear you!')
+  if (string = 'hello'){
+    return ('I can\'t hear you!')}
+  else if (string = 'HELLO'){
+    return ('YES INDEED!')}
+}
+  
